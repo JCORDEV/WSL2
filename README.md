@@ -16,3 +16,8 @@ Mientras que el abanico de funciones de la interfaz Linux de WSL1 era limitado, 
 Puesto que WSL1 utiliza una capa de traducción para gestionar los accesos a Linux y a Windows, algunos tipos de software especializado de Linux no pueden incluirse. Por el contrario, la virtualización del núcleo de WSL2 ofrece compatibilidad completa con los accesos al sistema. En la práctica, esto significa que los elementos de software complejo como Docker también se pueden ejecutar con WSL2. Además, desde el entorno Linux se obtiene acceso a la tarjeta gráfica, lo que resulta ventajoso sobre todo en aplicaciones con grandes conjuntos de datos, como las que se usan para el machine learning o en contextos de data science.
 
 Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas versiones pueden funcionar en paralelo. En cada distribución Linux es posible determinar qué versión WSL se debe utilizar para el control.
+
+Comparación final de las características de WSL2 y WSL1
+Como ya hemos visto, la utilización de WSL2 ofrece numerosas ventajas frente a su versión anterior. La siguiente tabla resume los puntos en común y las diferencias entre las dos versiones:
+
+![Texto alternativo](image/1.png)
