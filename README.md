@@ -7,6 +7,9 @@ Comprender aspectos de la teoría de sistemas operacionales como fundamento para
 
 WSL2, que fue lanzado en la primavera de 2020, es un perfeccionamiento de Windows Subsystem for Linux (WSL1). Linux es un sistema operativo de código abierto que se diferencia fundamentalmente de Windows, que se desarrolla y distribuye como un producto comercial. Linux convence especialmente por su amplia variedad de herramientas de programación y otros paquetes de software disponibles libremente.
 
+### **¿Para quién es WSL?**
+Se trata principalmente de una herramienta para desarrolladores, especialmente desarrolladores web, aquellos que trabajan en proyectos de código abierto o implementaciones en entornos de servidor Linux. WSL es para cualquier persona que quiera usar Bash, herramientas comunes de Linux (sed, awk, etc.) y marcos de trabajo primero en Linux (Ruby, Python, etc.), pero también disfruta con herramientas de productividad Windows
+
 ### **¿Cuáles son exactamente las diferencias con la versión anterior?**
 
 La diferencia fundamental entre WSL2 y su versión anterior se encuentra en la arquitectura del software. Mientras que WSL1 cuenta con una capa de compatibilidad para la transferencia de la ejecución del código entre Windows y Linux, WSL2 está basado en la virtualización de un sistema operativo Linux. La máquina virtual que se utiliza se ejecuta en el hipervisor nativo de Windows Hyper-V, que ofrece un rendimiento especialmente alto.
@@ -17,7 +20,8 @@ Puesto que WSL1 utiliza una capa de traducción para gestionar los accesos a Lin
 
 Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas versiones pueden funcionar en paralelo. En cada distribución Linux es posible determinar qué versión WSL se debe utilizar para el control.
 
-Comparación final de las características de WSL2 y WSL1
+### **Comparación final de las características de WSL2 y WSL1**
+
 Como ya hemos visto, la utilización de WSL2 ofrece numerosas ventajas frente a su versión anterior. La siguiente tabla resume los puntos en común y las diferencias entre las dos versiones:
 
 ![Texto alternativo](image/1.png)
