@@ -44,4 +44,10 @@ En la BIOS/UEFI del equipo, debes tener activada la característica __Virtualiza
 
 En ese caso, tenemos la virtualización __Hyper-V__ activada en la BIOS y podemos saltar al siguiente punto. En caso contrario, quizás no se encuentre habilitada y debamos activarla en la BIOS. Dicha característica puede encontrarse en un menú diferente, dependiendo de la marca y modelo de la placa.
 
->Es posible activar esta característica desde el __Símbolo de sistema__ de Windows como administrador, escribiendo el comando __bcdedit /set hypervisorlaunchtype auto__. Para volverla a desactivar, el comando sería __bcdedit /set hypervisorlaunchtype off__.
+> Es posible activar esta característica desde el __Símbolo de sistema__ de Windows como administrador, escribiendo el comando __bcdedit /set hypervisorlaunchtype auto__. Para volverla a desactivar, el comando sería __bcdedit /set hypervisorlaunchtype off__.
+
+## __Activación de características__
+
+Por otro lado, para activar las características mencionadas anteriormente en Windows, accedemos a Inicio y buscamos __Activar o desactivar características de Windows__, donde encontraremos un menú de selección para activar las casillas __Subsistema de Windows para Linux__ y __Plataforma de máquina virtual__:
+
+![Texto alternativo](/image/3.png)
