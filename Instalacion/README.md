@@ -54,8 +54,9 @@ Por otro lado, para activar las características mencionadas anteriormente en Wi
 
 La primera de ellas es absolutamente necesaria, puesto que es el propio __WSL__. La segunda de ellas es necesaria para utilizar __WSL2__, y es posible que no aparezca si no tienes Windows 10 actualizado. Puedes comprobarlo, accediendo a Inicio y abriendo una terminal de Windows escribiendo __CMD__ o __Símbolo de sistema__ y escribiendo lo siguiente:
 
-> ```
-> > ver
->Microsoft Windows [Versión 10.0.19042.906]
+```
+> ver
+Microsoft Windows [Versión 10.0.19042.906]
+```
 
 El comando ver nos mostrará la versión instalada de Windows 10. Si es igual o superior a 10.0.19041, podremos utilizar WSL2, en caso contrario, es posible que no podamos utilizar WSL (o sólo podamos usar WSL1). Para solucionarlo, revisa las actualizaciones de Windows e instala las que tengas pendientes.
