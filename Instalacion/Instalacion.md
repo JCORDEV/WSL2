@@ -8,12 +8,12 @@ Otros sistemas operativos como GNU/Linux o Mac, disponen de una interfaz de lín
 
 Para poder disponer de una terminal de GNU/Linux en nuestro Windows, antes necesitamos asegurarnos que nuestro equipo cumple los siguientes requisitos:
 
--Necesitaremos tener Windows 10 o superior (cualquier versión salvo Windows S).
+- Necesitaremos tener Windows 10 o superior (cualquier versión salvo Windows S).
 
--La virtualización Hyper-V activada en la BIOS/UEFI (habitual en equipos nuevos).
+- La virtualización Hyper-V activada en la BIOS/UEFI (habitual en equipos nuevos).
 
--La característica Windows Subsystem for Linux activada.
+- La característica Windows Subsystem for Linux activada.
 
--La característica Plataforma de Máquina Virtual activada.
+- La característica Plataforma de Máquina Virtual activada.
 
--Se recomienda tener las actualizaciones de Windows al día para mayor compatibilidad.
+- Se recomienda tener las actualizaciones de Windows al día para mayor compatibilidad.
