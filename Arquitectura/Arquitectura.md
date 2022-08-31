@@ -20,3 +20,7 @@ Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas version
 Como ya hemos visto, la utilización de WSL2 ofrece numerosas ventajas frente a su versión anterior. La siguiente tabla resume los puntos en común y las diferencias entre las dos versiones:
 
 ![Texto alternativo](/image/1.png)
+
+### **¿Cómo funciona la versión 2 del subsistema que permite ejecutar aplicaciones de Linux en Windows**
+
+WSL2 cuenta con un hipervisor nativo que permite ejecutar un Kernel real directamente en Windows. Con esto, se solucionan todos los problemas de rendimiento y se compatibilidad con servicios y programas, consiguiendo incluso una mejora de rendimiento de hasta un 500% al realizar determinadas tareas.
