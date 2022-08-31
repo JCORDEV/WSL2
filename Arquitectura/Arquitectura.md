@@ -19,4 +19,4 @@ Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas version
 
 Como ya hemos visto, la utilización de WSL2 ofrece numerosas ventajas frente a su versión anterior. La siguiente tabla resume los puntos en común y las diferencias entre las dos versiones:
 
-![Texto alternativo](image/1.png)
+![Texto alternativo](/image/1.png)
