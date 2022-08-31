@@ -41,3 +41,7 @@ Si por alguna razón no te ha funcionado la __instalación automática__ (o no t
 En la BIOS/UEFI del equipo, debes tener activada la característica __Virtualización Hyper-V__ o __Hyper-threading virtualization__. Para comprobar si la tenemos activada, pulsamos <span>__CTLR__+__ALT__+__SUPR__</span> y vamos al __Administrador de tareas__, a la pestaña __Rendimiento__. Si marcamos __CPU__, en las opciones inferiores podremos ver un texto que dice __Virtualización: Habilitado__:
 
 ![Texto alternativo](/image/2.png)
+
+En ese caso, tenemos la virtualización __Hyper-V__ activada en la BIOS y podemos saltar al siguiente punto. En caso contrario, quizás no se encuentre habilitada y debamos activarla en la BIOS. Dicha característica puede encontrarse en un menú diferente, dependiendo de la marca y modelo de la placa.
+
+>Es posible activar esta característica desde el __Símbolo de sistema__ de Windows como administrador, escribiendo el comando __bcdedit /set hypervisorlaunchtype auto__. Para volverla a desactivar, el comando sería __bcdedit /set hypervisorlaunchtype off__.
