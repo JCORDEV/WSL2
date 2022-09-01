@@ -118,6 +118,8 @@ Debian
 
 Como se puede ver, en nuestro caso nos aparece una distribución __Debian__ (*marcada como predeterminada*). Si instalasemos varias distribuciones las veríamos en esta lista, y podríamos seleccionar una como predeterminada escribiendo __wsl --set-default Debian o wsl -s Debian__.
 
+## __COMANDOS__
+
 | Distribución                                | Descripción                      
 |---------------------------------------------|---------------------------------------
 | __wsl__ --list --online                     | muestra una lista de las distribuciones válidas que se pueden instalar. Abreviación(__wsl__ -l -o)
