@@ -117,3 +117,10 @@ Debian
 ```
 
 Como se puede ver, en nuestro caso nos aparece una distribución __Debian__ (*marcada como predeterminada*). Si instalasemos varias distribuciones las veríamos en esta lista, y podríamos seleccionar una como predeterminada escribiendo __wsl --set-default Debian o wsl -s Debian__.
+
+| Distribución                                | Página oficial                        
+|---------------------------------------------|---------------------------------------
+| __wsl__ --list --online                     | muestra una lista de las distribuciones válidas que se pueden instalar. Abreviación(__wsl__ -l -o)
+| __wsl__ --list --verbose                    | muestra la lista de distribuciones con su estado actual y versión. Abreviación(__wsl__ -l -v)
+| __wsl__ --update                            | Actualiza manualmente la versión de su kernel WSL Linux. También puede usar el comando: __wsl__ --update rollback para retroceder a una versión anterior del kernel de WSL Linux.  
+| __wsl__ --install --distribution kali linux | ejecuta la instalación de una distribucion de linux, en este caso kali linux
