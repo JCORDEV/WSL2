@@ -98,3 +98,5 @@ passwd: password updated successfully
 Installation successful!
 juan@JUANC:~$
 ```
+
+![Texto alternativo](/image/4.png)
