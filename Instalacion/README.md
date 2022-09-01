@@ -64,9 +64,25 @@ El comando __ver__ nos mostrará la versión instalada de Windows 10. Si es igua
 > __Nota__: También es posible comprobar que versión tenemos instalada pulsando __Win+R__ y escribiendo __winver__. Si tenemos la versión 2004 o superior, podremos utilizar __WSL2__.
 
 ## __¿Qué distribuciones tengo en WSL?__
+__Windows Subsystem for Linux__ funciona de modo que podemos tener varias distribuciones instaladas en nuestro sistema y utilizar la que queramos. Para ver que distribuciones tenemos instaladas, abrimos una terminal de Windows (__CMD__) y escribimos __wsl --list__:
+
 ```
 > wsl --list
 
 Distribuciones de subsistema de Windows para Linux:
 Ubuntu (predeterminado)
 ```
+
+> Si en lugar de aparecernos el mensaje anterior nos muestra un error por no encontrar el comando __wsl__, muy probablemente no tengamos instalada la característica __Windows Subsystem for Linux__ que mencionamos en el apartado anterior.
+
+## __Instalar una distribución de Linux__
+
+El primer paso que deberíamos realizar es instalar una distribución de GNU/Linux en nuestro __WSL__. Existen muchas de ellas para elegir. Personalmente suelo elegir __Debian__, aunque también hay otras distribuciones:
+
+| Distribución      | Página oficial | Enlace a tienda Microsoft | Descarga manual (.appx) (MXN) |
+|-------------------|-------------|---------------|--------------|
+| Debian Linux  | [Debian](https://www.debian.org/)    | E             | 1600         |
+| Ubuntu Linux  | Atlus       | T             | 1500         |
+| Kali Linux    | Square Enix | T             | 1500         |
+| Open Suse     | Epic Games  | M             | 0            |
+| Alpine Linux ¹| Epic Games  | M             | 0            |
