@@ -59,4 +59,8 @@ La primera de ellas es absolutamente necesaria, puesto que es el propio __WSL__.
 Microsoft Windows [Versión 10.0.22000.856]
 ```
 
-El comando ver nos mostrará la versión instalada de Windows 10. Si es igual o superior a 10.0.19041, podremos utilizar WSL2, en caso contrario, es posible que no podamos utilizar WSL (o sólo podamos usar WSL1). Para solucionarlo, revisa las actualizaciones de Windows e instala las que tengas pendientes.
+El comando __ver__ nos mostrará la versión instalada de Windows 10. Si es igual o superior a __10.0.19041__, podremos utilizar __WSL2__, en caso contrario, es posible que no podamos utilizar WSL (*o sólo podamos usar __WSL1__*). Para solucionarlo, revisa las actualizaciones de Windows e instala las que tengas pendientes.
+
+> __Nota__: También es posible comprobar que versión tenemos instalada pulsando __Win+R__ y escribiendo __winver__. Si tenemos la versión 2004 o superior, podremos utilizar __WSL2__.
+
+## __¿Qué distribuciones tengo en WSL?__
