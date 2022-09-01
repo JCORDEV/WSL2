@@ -1,5 +1,3 @@
-<style>span{color: #3b63db;}</style>
-
 # __Instalación de WSL2__
 
 Tradicionalmente, Windows ha proporcionado a sus usuarios una interfaz de línea de comandos que funciona bajo su propio sistema, heredado de MS-DOS y diferente a GNU/Linux, el cuál se basa en un sistema UNIX. Sin embargo, en Windows 10, con la irrupción de __Windows Subsystem for Linux__ (más comunmente denominado WSL), esto ha cambiado radicalmente.
