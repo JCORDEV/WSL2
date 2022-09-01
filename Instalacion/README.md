@@ -87,6 +87,10 @@ El primer paso que deberíamos realizar es instalar una distribución de GNU/Lin
 
 Las distribuciones se pueden instalar automáticamente desde la __tienda oficial de Microsoft__, o manualmente, ejecutando un archivo __.appx__ que contiene la distribución de Linux a instalar. Si lo hacemos de la primera forma, se instalará de forma transparente, si lo hacemos de la segunda forma, nos mostrará una ventana similar a la siguiente:
 
+![Texto alternativo](/image/4.png)
+
+Una vez instalada la distribución de Linux en nuestro sistema, tras esperar un corto espacio de tiempo, al iniciarla por primera vez nos aparecerá una ventana parecida a esta:
+
 ```
 Installing, this may take a few minutes...
 Please create a default UNIX user account. The username does not need to match your Windows username.
@@ -99,4 +103,17 @@ Installation successful!
 juan@JUANC:~$
 ```
 
-![Texto alternativo](/image/4.png)
+En ella, se nos preguntará el __nombre de usuario__ y su correspondiente __contraseña__ para utilizar en nuestra distribución de Linux de WSL. El nombre de usuario __debe estar en minúsculas__ y no es necesario que coincida con el nombre que tengamos en nuestra cuenta de Windows.
+
+> Ten en cuenta que el __nombre de usuario__ que escribas va a ser el que utilizarás en WSL de forma habitual. Por ejemplo, si utilizamos el nombre de usuario __Juan__, nuestra carpeta de usuario será __/home/Juan__.
+
+Una vez hecho esto, escribimos __exit__ (*o cerramos la ventana y volvemos a abrir un __símbolo del sistema__*). Vamos a comprobar que todo ha ido bien y tenemos una distribución instalada:
+
+```
+> wsl --list
+Distribuciones de subsistema de Windows para Linux:
+Ubuntu (predeterminado)
+Debian
+```
+
+Como se puede ver, en nuestro caso nos aparece una distribución __Debian__ (*marcada como predeterminada*). Si instalasemos varias distribuciones las veríamos en esta lista, y podríamos seleccionar una como predeterminada escribiendo __wsl --set-default Debian o wsl -s Debian__.
