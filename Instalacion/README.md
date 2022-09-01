@@ -64,3 +64,9 @@ El comando __ver__ nos mostrará la versión instalada de Windows 10. Si es igua
 > __Nota__: También es posible comprobar que versión tenemos instalada pulsando __Win+R__ y escribiendo __winver__. Si tenemos la versión 2004 o superior, podremos utilizar __WSL2__.
 
 ## __¿Qué distribuciones tengo en WSL?__
+```
+> wsl --list
+
+Distribuciones de subsistema de Windows para Linux:
+Ubuntu (predeterminado)
+```
