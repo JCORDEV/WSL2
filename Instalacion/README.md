@@ -1,3 +1,5 @@
+<style>span{color: #3b63db;}</style>
+
 # __Instalación de WSL2__
 
 Tradicionalmente, Windows ha proporcionado a sus usuarios una interfaz de línea de comandos que funciona bajo su propio sistema, heredado de MS-DOS y diferente a GNU/Linux, el cuál se basa en un sistema UNIX. Sin embargo, en Windows 10, con la irrupción de __Windows Subsystem for Linux__ (más comunmente denominado WSL), esto ha cambiado radicalmente.
@@ -77,10 +79,10 @@ Ubuntu (predeterminado)
 
 El primer paso que deberíamos realizar es instalar una distribución de GNU/Linux en nuestro __WSL__. Existen muchas de ellas para elegir. Personalmente suelo elegir __Debian__, aunque también hay otras distribuciones:
 
-| Distribución      | Página oficial | Enlace a tienda Microsoft | Descarga manual (.appx) (MXN) |
-|-------------------|-------------|---------------|--------------|
-| Debian Linux  | <html><body><a href="https://www.debian.org/" target="_blank">Debian</a></body></html>   | E             | 1600         |
-| Ubuntu Linux  | Atlus       | T             | 1500         |
-| Kali Linux    | Square Enix | T             | 1500         |
-| Open Suse     | Epic Games  | M             | 0            |
-| Alpine Linux ¹| Epic Games  | M             | 0            |
+| Distribución  | Página oficial                        | Descarga manual (.appx) (MXN)                        |
+|---------------|---------------------------------------|------------------------------------------------------|
+| Debian Linux  | [Debian](https://www.debian.org/)     | [Debian.appx](https://aka.ms/wsl-debian-gnulinux)    |
+| Ubuntu Linux  | [Ubuntu](https://ubuntu.com/)         | [Ubuntu 20.04.appx](https://aka.ms/wslubuntu2004)    |
+| Kali Linux    | [Kali](https://www.kali.org/)         | [Kali Linux.appx](https://aka.ms/wsl-kali-linux-new) |
+| Open Suse     | [Open Suse](https://www.opensuse.org/)| [Open Suse.appx](https://aka.ms/wsl-opensuse-42)     |
+| Alpine Linux ¹| [Alpine](https://alpinelinux.org/)    |                                                      |
