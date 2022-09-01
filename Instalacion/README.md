@@ -79,7 +79,7 @@ El primer paso que deberíamos realizar es instalar una distribución de GNU/Lin
 
 | Distribución      | Página oficial | Enlace a tienda Microsoft | Descarga manual (.appx) (MXN) |
 |-------------------|-------------|---------------|--------------|
-| Debian Linux  | <a href="https://www.debian.org/" target="_blank">Debian</a>   | E             | 1600         |
+| Debian Linux  | <html><body><a href="https://www.debian.org/" target="_blank">Debian</a></body></html>   | E             | 1600         |
 | Ubuntu Linux  | Atlus       | T             | 1500         |
 | Kali Linux    | Square Enix | T             | 1500         |
 | Open Suse     | Epic Games  | M             | 0            |
