@@ -77,10 +77,10 @@ Ubuntu (predeterminado)
 
 El primer paso que deberíamos realizar es instalar una distribución de GNU/Linux en nuestro __WSL__. Existen muchas de ellas para elegir. Personalmente suelo elegir __Debian__, aunque también hay otras distribuciones:
 
-| Distribución  | Página oficial                        | Descarga manual (.appx) (MXN)                        |
-|---------------|---------------------------------------|------------------------------------------------------|
-| Debian Linux  | [Debian](https://www.debian.org/)     | [Debian.appx](https://aka.ms/wsl-debian-gnulinux)    |
-| Ubuntu Linux  | [Ubuntu](https://ubuntu.com/)         | [Ubuntu 20.04.appx](https://aka.ms/wslubuntu2004)    |
-| Kali Linux    | [Kali](https://www.kali.org/)         | [Kali Linux.appx](https://aka.ms/wsl-kali-linux-new) |
-| Open Suse     | [Open Suse](https://www.opensuse.org/)| [Open Suse.appx](https://aka.ms/wsl-opensuse-42)     |
-| Alpine Linux ¹| [Alpine](https://alpinelinux.org/)    |                                                      |
+| Distribución  | Página oficial                        |Enlace a tienda Microsoft                                                              |Descarga manual (.appx) (MXN)                        |
+|---------------|---------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Debian Linux  | [Debian](https://www.debian.org/)     |[Debian MS Store](https://www.microsoft.com/es-es/p/debian/9msvkqc78pk6)               |[Debian.appx](https://aka.ms/wsl-debian-gnulinux)    |
+| Ubuntu Linux  | [Ubuntu](https://ubuntu.com/)         |[Ubuntu MS Store](https://www.microsoft.com/es-es/p/ubuntu-2004-lts/9n6svws3rx71)      |[Ubuntu 20.04.appx](https://aka.ms/wslubuntu2004)    |
+| Kali Linux    | [Kali](https://www.kali.org/)         |[Kali MS Store](https://www.microsoft.com/es-es/p/kali-linux/9pkr34tncv07)             |[Kali Linux.appx](https://aka.ms/wsl-kali-linux-new) |
+| Open Suse     | [Open Suse](https://www.opensuse.org/)|[Open Suse MS Store](https://www.microsoft.com/es-es/p/opensuse-leap-15-1/9njfzk00fgkv)|[Open Suse.appx](https://aka.ms/wsl-opensuse-42)     |
+| Alpine Linux ¹| [Alpine](https://alpinelinux.org/)    |[Alpine MS Store](https://www.microsoft.com/es-es/p/alpine-wsl/9p804crf0395)           |                                                     |
