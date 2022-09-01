@@ -84,3 +84,17 @@ El primer paso que deberíamos realizar es instalar una distribución de GNU/Lin
 | Kali Linux    | [Kali](https://www.kali.org/)         |[Kali MS Store](https://www.microsoft.com/es-es/p/kali-linux/9pkr34tncv07)             |[Kali Linux.appx](https://aka.ms/wsl-kali-linux-new) |
 | Open Suse     | [Open Suse](https://www.opensuse.org/)|[Open Suse MS Store](https://www.microsoft.com/es-es/p/opensuse-leap-15-1/9njfzk00fgkv)|[Open Suse.appx](https://aka.ms/wsl-opensuse-42)     |
 | Alpine Linux ¹| [Alpine](https://alpinelinux.org/)    |[Alpine MS Store](https://www.microsoft.com/es-es/p/alpine-wsl/9p804crf0395)           |                                                     |
+
+Las distribuciones se pueden instalar automáticamente desde la __tienda oficial de Microsoft__, o manualmente, ejecutando un archivo __.appx__ que contiene la distribución de Linux a instalar. Si lo hacemos de la primera forma, se instalará de forma transparente, si lo hacemos de la segunda forma, nos mostrará una ventana similar a la siguiente:
+
+```
+Installing, this may take a few minutes...
+Please create a default UNIX user account. The username does not need to match your Windows username.
+For more information visit: https://aka.ms/wslusers
+Enter new UNIX username: juan
+New password:
+Retype new password:
+passwd: password updated successfully
+Installation successful!
+juan@JUANC:~$
+```
